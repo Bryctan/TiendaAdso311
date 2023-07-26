@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .categorias-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .categorias-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+  }
+  
+  .categoria {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categoria h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+  
+  .categoria p {
+    margin: 0;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
