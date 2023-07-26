@@ -17,6 +17,19 @@
         <button class="comprar">COMPRAR</button>
       </div>
     </template>
+
+    <template id="template_car">
+      <div class="product">
+        <h2></h2>
+        <img src=""/>
+        <p></p>
+        <div class="botones">
+          <button class="incrementar">+</button>
+          <p class="cantidad"></p>
+          <button class="decrementar">-</button>
+        </div>
+      </div>
+    </template>
     <!--  -->
 
     <nav>
@@ -29,6 +42,13 @@
     </nav>
 
     <div class="products"></div>
+  <div class="carrito">
+    <div class="carritoMain">
+      <h2>Carrito</h2>
+      <div class="contentCar"></div>
+      <p>Cantidad de productos: <span id="cantidad"></span></p>
+      <p>Total a pagar: <span id="total"></span></p>
+    </div>
   </div>
     
   </body>
